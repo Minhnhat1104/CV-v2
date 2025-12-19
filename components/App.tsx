@@ -127,10 +127,10 @@ export default function App() {
                 I work as a Fullstack Developer with strong expertise in
                 Frontend development, especially ReactJS, focusing on building
                 fast and high-performance web applications. For the hope of
-                learning new things in software technology, collaborate to your
-                company&apos;s develop team to make product and building a
-                long-term career in your company, I wish I could have an
-                interview with your company in the future.
+                learning new things in software technology, collaborate with
+                your company&apos;s development team to make product and
+                building a long-term career in your company, I wish I could have
+                an interview with your company in the future.
               </Typography>
 
               <Section title="Work experience">
@@ -147,6 +147,7 @@ export default function App() {
                     "Manage application state and data fetching using Recoil and React Query.",
                     "Implement complex forms and rich text editing with react-hook-form, TinyMCE, and i18next for internationalization.",
                     "Integrate and customize advanced React libraries such as Univer to build an Excel-like editor.",
+                    "Added multi-language support using i18n, stored languages in the database, and optimized loading with namespaces.",
                     "Deploy React applications to Linux servers and work confidently with basic Linux command-line tools.",
                     "Collaborate with backend systems and handle basic PHP development to support frontend features.",
                   ]}
