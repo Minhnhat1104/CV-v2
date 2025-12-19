@@ -23,4 +23,11 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+@page {
+  size: A4;
+  margin-top: 25mm;
+  margin-bottom: 20mm;
 }
