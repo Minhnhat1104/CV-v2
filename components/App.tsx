@@ -6,7 +6,12 @@ import Section from "./Section";
 import Header from "./Header";
 import CustomList from "./CustomList";
 import PersonalInformation from "./PersonalInformation";
-import { GitHub, Print, PrintOutlined } from "@mui/icons-material";
+import {
+  GitHub,
+  LanguageOutlined,
+  Print,
+  PrintOutlined,
+} from "@mui/icons-material";
 import WebUIItem from "./WebUIItem";
 import { useRef } from "react";
 import { useReactToPrint } from "react-to-print";
@@ -182,7 +187,7 @@ export default function App() {
             <>
               {/* Project 2 */}
               <Typography color="textSecondary" variant="h3" mt={2} mb={1}>
-                Music Player, (Finished) | 10/04/2022 - 13/04/2022
+                Music Player | 10/04/2022 - 13/04/2022
               </Typography>
               <Stack direction="row" alignItems="center" mb={1}>
                 <GitHub sx={{ fontSize: 16, mr: 0.5 }} />
@@ -191,9 +196,15 @@ export default function App() {
                 </Typography>
               </Stack>
 
+              <Stack direction="row" alignItems="center" mb={1}>
+                <LanguageOutlined sx={{ fontSize: 16, mr: 0.5 }} />
+                <Typography>
+                  https://minhnhat1104.github.io/musicPlayer/
+                </Typography>
+              </Stack>
+
               <CustomList
                 data={[
-                  "Demo: https://minhnhat1104.github.io/musicPlayer/",
                   "Practice using html, CSS, JavaScript to create a website for listening to music.",
                   "Play, pause, next, back song buttons.",
                   "Random, repeat song.",
@@ -214,9 +225,15 @@ export default function App() {
                 </Typography>
               </Stack>
 
+              <Stack direction="row" alignItems="center" mb={1}>
+                <LanguageOutlined sx={{ fontSize: 16, mr: 0.5 }} />
+                <Typography>
+                  https://minhnhat1104.github.io/TodoList/
+                </Typography>
+              </Stack>
+
               <CustomList
                 data={[
-                  "Demo: https://minhnhat1104.github.io/TodoList/",
                   "Practice using html, CSS, JavaScript to create a TodoList on website.",
                   "Add, Delete, Update, Filter, Delete all function with Todo item.",
                   "Store Item in Local Storage to persist information on closing browser.",

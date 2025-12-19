@@ -21,7 +21,7 @@ const CustomList = ({ data, spacing = 1, sx }: CustomListProps) => {
               background: theme.palette.common.black,
               borderRadius: 999,
               mr: 1,
-              ml: 0.25,
+              ml: 0.675,
               flexShrink: 0,
               position: "relative",
               top: 7,
