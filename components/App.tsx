@@ -40,6 +40,7 @@ export default function App() {
     <Stack
       sx={{
         background: theme.palette.background.default,
+        transition: "background 0.3s ease-in-out",
         width: 1,
         height: 1,
         p: 2,
@@ -98,11 +99,11 @@ export default function App() {
                   data={[
                     "TOEIC Listening & Reading: 880 / 990",
                     "TOEIC Speaking & Writing: 260 / 400",
-                    "Frontend: ReactJS, NextJS, Recoil, SASS, MUI, HTML, CSS, JavaScript.",
-                    "Backend: NodeJS, ExpressJS, MongoDB, MySQL, advanced SQL Query",
+                    "Frontend: React, NextJS, Recoil, SASS, MUI, HTML, CSS, JS.",
+                    "Backend: Node, Express, MongoDB, MySQL, advanced SQL Query.",
                     "Basic knowledge OOP, data structure and algorithm.",
-                    "Work confidently with basic Linux command-line tools",
-                    "Familiar with using the common library such as Webpack, i18n, bootstrap,..",
+                    "Work confidently with basic Linux command-line tools.",
+                    "Familiar with common React libraries such as Webpack, i18n, MUI,..",
                   ]}
                 />
               </Section>

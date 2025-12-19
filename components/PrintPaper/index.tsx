@@ -15,6 +15,7 @@ const PrintPaper = ({ leftPanel, rightPanel }: PrintPaperProps) => {
         width: "210mm",
         height: "297mm",
         background: theme.palette.background.paper,
+        transition: "background 0.3s ease-in-out",
         margin: "auto",
         flexShrink: 0,
         boxShadow: "0 8px 24px rgba(0,0,0,0.15)",

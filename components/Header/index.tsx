@@ -16,6 +16,7 @@ const Header = () => {
           my: 3,
           borderRadius: "50%",
           backgroundColor: theme.palette.background.paper,
+          transition: "background 0.3s ease-in-out",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
