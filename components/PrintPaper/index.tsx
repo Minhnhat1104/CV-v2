@@ -18,10 +18,10 @@ const PrintPaper = ({ leftPanel, rightPanel }: PrintPaperProps) => {
         margin: "auto",
         flexShrink: 0,
         boxShadow: "0 8px 24px rgba(0,0,0,0.15)",
-        p: 2,
+        p: 3,
       }}
     >
-      <Stack direction="row" spacing={2}>
+      <Stack direction="row" spacing={3}>
         <Stack sx={{ flex: 4 }}>{leftPanel}</Stack>
         <Stack sx={{ flex: 8 }}>{rightPanel}</Stack>
       </Stack>

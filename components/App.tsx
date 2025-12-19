@@ -105,7 +105,7 @@ export default function App() {
           }
           rightPanel={
             <>
-              <Typography variant="h1" sx={{ mb: 1 }}>
+              <Typography variant="h1" sx={{ mb: 1, mt: 4 }}>
                 Le Minh Nhat
               </Typography>
               <Typography
