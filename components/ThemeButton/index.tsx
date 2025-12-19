@@ -7,7 +7,7 @@ import React from "react";
 
 const ThemeButton = () => {
   const { mode, setMode } = useColorScheme();
-  console.log("🚀 ~ ThemeButton ~ mode:", mode);
+
   if (!mode) {
     return null;
   }

@@ -183,7 +183,21 @@ export default function App() {
 
         {/* Page 2 */}
         <PrintPaper
-          leftPanel={<></>}
+          leftPanel={
+            <>
+              <Section title="Interests" sx={{ mt: 0 }}>
+                <CustomList
+                  data={[
+                    "Badminton (Strong Passion)",
+                    "Music Technology",
+                    "Fitness & Healthy Lifestyle",
+                    "Traveling & Exploration",
+                  ]}
+                  sx={{ my: 1 }}
+                />
+              </Section>
+            </>
+          }
           rightPanel={
             <>
               {/* Project 2 */}
