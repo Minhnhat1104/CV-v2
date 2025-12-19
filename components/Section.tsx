@@ -16,7 +16,7 @@ const Section = ({ title, children, sx }: SectionProps) => {
         sx={{
           py: 1,
           width: "fit-content",
-          borderBottom: `2px solid ${theme.palette.secondary.light}`,
+          borderBottom: `2px solid ${theme.palette.text.secondary}`,
         }}
       >
         {title}
