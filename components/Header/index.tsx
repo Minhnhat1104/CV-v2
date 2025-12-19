@@ -11,7 +11,7 @@ const Header = () => {
         sx={{
           width: 160,
           height: 160,
-          p: 0.75,
+          p: 0.5,
           margin: "auto",
           my: 3,
           borderRadius: "50%",
