@@ -11,6 +11,7 @@ import {
   LanguageOutlined,
   Print,
   PrintOutlined,
+  Star,
 } from "@mui/icons-material";
 import WebUIItem from "./WebUIItem";
 import { useRef } from "react";
@@ -100,7 +101,7 @@ export default function App() {
                     "TOEIC Listening & Reading: 880 / 990",
                     "TOEIC Speaking & Writing: 260 / 400",
                     "Frontend: React, NextJS, Recoil, SASS, MUI, HTML, CSS, JS.",
-                    "Backend: Node, Express, MongoDB, MySQL, advanced SQL Query.",
+                    "Backend: Node, Express, Prisma ORM, MongoDB, MySQL.",
                     "Basic knowledge OOP, data structure and algorithm.",
                     "Work confidently with basic Linux command-line tools.",
                     "Familiar with common React libraries such as Webpack, i18n, MUI,..",
@@ -122,16 +123,24 @@ export default function App() {
                 Frontend Developer
               </Typography>
               <Typography sx={{ textAlign: "justify" }}>
-                I graduated with Honors from Ho Chi Minh University of Science
-                (HCMUS) and have 3 years of working experience, starting from my
-                internship and professional work in my third year at university.
-                I work as a Fullstack Developer with strong expertise in
-                Frontend development, especially ReactJS, focusing on building
-                fast and high-performance web applications. For the hope of
-                learning new things in software technology, collaborate with
-                your company&apos;s development team to make product and
-                building a long-term career in your company, I wish I could have
-                an interview with your company in the future.
+                I graduated with Honors from Ho Chi Minh City University of
+                Science (HCMUS) and have{" "}
+                <span style={{ fontWeight: "bold" }}>
+                  3 years of experience
+                </span>
+                , starting from my internship in my third year at university. I
+                am a Fullstack Developer with strong expertise in Frontend
+                development, especially{" "}
+                <span style={{ fontWeight: "bold" }}>ReactJS</span>, focused on
+                building fast and high-performance web applications, and I also
+                have experience working with{" "}
+                <span style={{ fontWeight: "bold" }}>
+                  NodeJS, Express, and MySQL
+                </span>
+                . For the hope of learning new things in software technology,
+                collaborate with your company&apos;s development team to make
+                product and building a long-term career in your company, I wish
+                I could have an interview with your company in the future.
               </Typography>
 
               <Section title="Work experience">
@@ -143,22 +152,32 @@ export default function App() {
                 </Typography>
                 <CustomList
                   data={[
-                    "Developed a new version of the company’s Groupware application with React. (currently in production)",
-                    "Build scalable UI with MUI and a customized Dashforge theme.",
-                    "Manage application state and data fetching using Recoil and React Query.",
-                    "Implement complex forms and rich text editing with react-hook-form, TinyMCE, and i18next for internationalization.",
-                    "Integrate and customize advanced React libraries such as Univer to build an Excel-like editor.",
-                    "Added multi-language support using i18n, stored languages in the database, and optimized loading with namespaces.",
-                    "Deploy React applications to Linux servers and work confidently with basic Linux command-line tools.",
-                    "Collaborate with backend systems and handle basic PHP development to support frontend features.",
+                    "Developed and maintained a company application using React (Groupware version 3)",
+                    "Strong ability to rapidly build UI components and customize MUI themes to match product design requirements",
+                    "Built advanced features such as an Excel-like editor by integrating and customizing Univer",
+                    "Handle complex forms and rich text editing with react-hook-form and TinyMCE",
+                    "Managed application state and server data using Recoil and React Query",
+                    "Support multi language with i18n and optimize loading using namespaces.",
+                    "Worked closely with backend teams, contributing basic PHP development and customer bug fixes",
                   ]}
                 />
               </Section>
 
               <Section title="Project">
-                <Typography color="textSecondary" variant="h3" mt={2} mb={1}>
-                  Desktop-Images-Website | 2/10 2022 - PRESENT
-                </Typography>
+                <Stack direction="row" alignItems="center" mt={2} mb={1}>
+                  <Star
+                    sx={{
+                      fontSize: 16,
+                      mr: 0.5,
+                      color: theme.palette.text.secondary,
+                      position: "relative",
+                      bottom: 1,
+                    }}
+                  />
+                  <Typography color="textSecondary" variant="h3">
+                    Photohub | 15/12/2025 - PRESENT
+                  </Typography>
+                </Stack>
                 <Stack direction="row" alignItems="center" mb={1}>
                   <GitHub sx={{ fontSize: 16, mr: 0.5 }} />
                   <Typography>
@@ -168,13 +187,15 @@ export default function App() {
 
                 <CustomList
                   data={[
-                    "My website which is built for storing and sharing background image of PC.",
-                    "Frontend with ReactJS, SASS, Redux.",
-                    "Backend with NodeJS (Express), MongoDB.",
-                    "CRUD operations with image and users.",
-                    "Authentication with JSON WEB TOKEN.",
-                    "Authorization user and admin account.",
-                    "Store token in Cookie and Redux to enhance security.",
+                    "A website for sharing beautiful photos.",
+                    "Frontend built with ReactJS, Recoil, and Material UI",
+                    "Backend developed using NodeJS (Express), MySQL and Prisma ORM",
+                    "Docker used to streamline and optimize development workflow",
+                    "Built-in image editor: crop, zoom, rotate, brightness, and contrast adjustments",
+                    "Supports light mode and dark mode",
+                    "Multi-language support using i18n",
+                    "JWT-based authentication with role-based authorization (user & admin)",
+                    "Integrated Google OAuth 2.0 login",
                   ]}
                 />
               </Section>
