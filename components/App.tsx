@@ -120,7 +120,7 @@ export default function App() {
                 variant="h2"
                 sx={{ mb: 2, fontWeight: 500 }}
               >
-                Frontend Developer
+                Fullstack Developer
               </Typography>
               <Typography sx={{ textAlign: "justify" }}>
                 I graduated with Honors from Ho Chi Minh City University of
@@ -181,7 +181,14 @@ export default function App() {
                 <Stack direction="row" alignItems="center" mb={1}>
                   <GitHub sx={{ fontSize: 16, mr: 0.5 }} />
                   <Typography>
-                    https://github.com/Minhnhat1104/Desktop-Images-Website
+                    https://github.com/Minhnhat1104/PhotoHub-Frontend
+                  </Typography>
+                </Stack>
+
+                <Stack direction="row" alignItems="center" mb={1}>
+                  <GitHub sx={{ fontSize: 16, mr: 0.5 }} />
+                  <Typography>
+                    https://github.com/Minhnhat1104/Phothub-Backend
                   </Typography>
                 </Stack>
 
