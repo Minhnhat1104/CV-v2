@@ -120,7 +120,7 @@ export default function App() {
                 variant="h2"
                 sx={{ mb: 2, fontWeight: 500 }}
               >
-                Fullstack Developer
+                Frontend Developer
               </Typography>
               <Typography sx={{ textAlign: "justify" }}>
                 I graduated with Honors from Ho Chi Minh City University of
