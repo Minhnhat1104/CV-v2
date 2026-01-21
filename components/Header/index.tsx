@@ -1,6 +1,6 @@
 import { Box, Stack, useTheme } from "@mui/material";
 import React from "react";
-import avatar from "./avatar.jpg";
+import avatar from "./avatar2.jpg";
 
 const Header = () => {
   const theme = useTheme();
@@ -32,7 +32,8 @@ const Header = () => {
             height: 1,
             borderRadius: "50%",
             objectFit: "cover",
-            objectPosition: "center",
+            objectPosition: "50% 12%",
+            objectViewBox: "inset(-10%)",
           }}
         />
       </Box>
